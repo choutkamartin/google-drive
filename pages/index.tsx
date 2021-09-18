@@ -31,9 +31,7 @@ export default function index() {
     return (
       <ul>
         {files.map((item) => (
-          <li key={item.id}>
-            {item.name} {item.price}
-          </li>
+          <li key={item.id}>{item.name}</li>
         ))}
       </ul>
     );
