@@ -1,6 +1,6 @@
 # Google Drive API example
 
-This example shows, how to get data from Google Drive via their API. Generally, you want to use a service account to do this, assuming you don't want to let each person authorize via Google OAuth 2.0. When creating a service account, you will receive a JSON file with secrets, such as private keys. The example of the JSON is below:
+This example shows how to get data from Google Drive via their API. Generally, you want to use a service account to do this, assuming you don't want to let each person authorize via Google OAuth 2.0. When creating a service account, you will receive a JSON file with secrets, such as private keys. The example of the JSON is below:
 
 ```json
 {
@@ -18,3 +18,5 @@ This example shows, how to get data from Google Drive via their API. Generally, 
 ```
 
 You can import the JSON file into the API route, as already shown in both of the API routes.
+
+You will probably run into a problem, that the API doesn't return any files. That is due to not sharing your Drive files with the service account.
